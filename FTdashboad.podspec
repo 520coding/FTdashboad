@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FTdashboad'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FTdashboad.'
+  s.summary          = 'ios仪表盘，圆环进度条'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/1085192695@qq.com/FTdashboad'
+  s.homepage         = 'https://github.com/520coding'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '1085192695@qq.com' => '1085192695@qq.com' }
-  s.source           = { :git => 'https://github.com/1085192695@qq.com/FTdashboad.git', :tag => s.version.to_s }
+  s.author           = { '520coding' => '1085192695@qq.com,794751446@qq.com' }
+  s.source           = { :git => 'https://github.com/520coding/FTdashboad.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'FTdashboad/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'FTdashboad' => ['FTdashboad/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'FTdashboad' => ['FTdashboad/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

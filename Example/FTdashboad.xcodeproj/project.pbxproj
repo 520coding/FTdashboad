@@ -23,6 +23,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		98DC876924CEB5E000C030F3 /* FTdashBoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DC876424CEB5E000C030F3 /* FTdashBoad.m */; };
+		98DC876A24CEB5E000C030F3 /* UILabel+YJS.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DC876724CEB5E000C030F3 /* UILabel+YJS.m */; };
 		B0C173C1BD681A6395B5AFFB /* Pods_FTdashboad_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F11B1D9EA6E012DEB55805 /* Pods_FTdashboad_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06930124E9ADD06535B88294 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		06930124E9ADD06535B88294 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FTdashboad_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTdashboad_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,11 +59,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		68F3113A1080971E7E2CA2DD /* FTdashboad.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FTdashboad.podspec; path = ../FTdashboad.podspec; sourceTree = "<group>"; };
+		68F3113A1080971E7E2CA2DD /* FTdashboad.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FTdashboad.podspec; path = ../FTdashboad.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C1F948CCD31FC8208B8062A /* Pods_FTdashboad_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTdashboad_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D044D3E4B03A94A8B1CE133 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7D044D3E4B03A94A8B1CE133 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98DC876424CEB5E000C030F3 /* FTdashBoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTdashBoad.m; sourceTree = "<group>"; };
+		98DC876524CEB5E000C030F3 /* FTdashBoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTdashBoad.h; sourceTree = "<group>"; };
+		98DC876724CEB5E000C030F3 /* UILabel+YJS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YJS.m"; sourceTree = "<group>"; };
+		98DC876824CEB5E000C030F3 /* UILabel+YJS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YJS.h"; sourceTree = "<group>"; };
 		9CBF58703078C91F8128EC30 /* Pods-FTdashboad_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTdashboad_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FTdashboad_Tests/Pods-FTdashboad_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A3F11B1D9EA6E012DEB55805 /* Pods_FTdashboad_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTdashboad_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28F0CD5AE908BCF6B1191EB /* Pods-FTdashboad_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTdashboad_Tests.release.xcconfig"; path = "Target Support Files/Pods-FTdashboad_Tests/Pods-FTdashboad_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +138,9 @@
 		6003F593195388D20070C39A /* Example for FTdashboad */ = {
 			isa = PBXGroup;
 			children = (
+				98DC876624CEB5E000C030F3 /* Utility */,
+				98DC876524CEB5E000C030F3 /* FTdashBoad.h */,
+				98DC876424CEB5E000C030F3 /* FTdashBoad.m */,
 				6003F59C195388D20070C39A /* FTAppDelegate.h */,
 				6003F59D195388D20070C39A /* FTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -185,6 +194,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		98DC876624CEB5E000C030F3 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				98DC876724CEB5E000C030F3 /* UILabel+YJS.m */,
+				98DC876824CEB5E000C030F3 /* UILabel+YJS.h */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		A154537B1846BE9F16B45905 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +211,6 @@
 				9CBF58703078C91F8128EC30 /* Pods-FTdashboad_Tests.debug.xcconfig */,
 				C28F0CD5AE908BCF6B1191EB /* Pods-FTdashboad_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +275,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -365,8 +383,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* FTAppDelegate.m in Sources */,
+				98DC876A24CEB5E000C030F3 /* UILabel+YJS.m in Sources */,
 				6003F5A7195388D20070C39A /* FTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				98DC876924CEB5E000C030F3 /* FTdashBoad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

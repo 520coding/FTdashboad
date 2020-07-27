@@ -1,0 +1,6 @@
+framework module FTdashboad {
+  umbrella header "FTdashboad-umbrella.h"
+
+  export *
+  module * { export * }
+}

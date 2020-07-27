@@ -22,7 +22,7 @@ pod 'FTdashboad'
 
 ## Author
 
-1085192695@qq.com, 1085192695@qq.com
+794751446@qq.com, 1085192695@qq.com
 
 ## License
 

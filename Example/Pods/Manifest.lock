@@ -1,0 +1,16 @@
+PODS:
+  - FTdashboad (0.1.0)
+
+DEPENDENCIES:
+  - FTdashboad (from `../`)
+
+EXTERNAL SOURCES:
+  FTdashboad:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FTdashboad: 9852b29a84c88e90594645c11711ca847e2c4910
+
+PODFILE CHECKSUM: eb293c9488e4e3840efa6581e6d50c0354abb7cc
+
+COCOAPODS: 1.9.3
