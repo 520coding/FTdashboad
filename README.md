@@ -2,7 +2,7 @@
 
 [![CI Status](https://img.shields.io/travis/1085192695@qq.com/FTdashboad.svg?style=flat)](https://travis-ci.org/1085192695@qq.com/FTdashboad)
 [![Version](https://img.shields.io/cocoapods/v/FTdashboad.svg?style=flat)](https://cocoapods.org/pods/FTdashboad)
-[![License](https://img.shields.io/cocoapods/l/FTdashboad.svg?style=flat)](https://cocoapods.org/pods/FTdashboad)
+[![License](https://img.shields.io/cocoapods/l/FTdashboad.svg?style=flat)](https://github.com/520coding/FTdashboad/blob/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/FTdashboad.svg?style=flat)](https://cocoapods.org/pods/FTdashboad)
 
 ## Example
@@ -19,6 +19,9 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'FTdashboad'
 ```
+
+## Demo
+![Image text](https://github.com/Takemoto-xie/resource/blob/master/dashboad/demo_dashboad.gif)
 
 ## Author
 
