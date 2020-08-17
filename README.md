@@ -8,7 +8,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 FTdashboad is available through [CocoaPods](https://cocoapods.org/). To install it, simply add the following line to your Podfile:
 pod 'FTdashboad'
 ## Demo
-![demo_dashboad.gif](https://cdn.nlark.com/yuque/0/2020/gif/414848/1597632625045-a0e672a4-b373-4dd7-8fad-ef03de987866.gif#align=left&display=inline&height=652&margin=%5Bobject%20Object%5D&name=demo_dashboad.gif&originHeight=652&originWidth=320&size=6436977&status=done&style=none&width=320)
+![demo_dashboad.gif](https://github.com/520coding/FTdashboad/blob/master/ScreenShots/demo_dashboad.gif)
 ## Author
 [794751446@qq.com](mailto:794751446@qq.com), [1085192695@qq.com](mailto:1085192695@qq.com)
 ## License
