@@ -17,22 +17,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p3L-tr-XY4" customClass="FTdashBoad">
-                                <rect key="frame" x="37.666666666666657" y="255" width="300" height="300"/>
+                                <rect key="frame" x="37.666666666666657" y="261" width="300" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="p3L-tr-XY4" secondAttribute="height" multiplier="1:1" id="owC-4v-1Eo"/>
+                                    <constraint firstAttribute="width" constant="300" id="vnt-eb-h3A"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRQ-hh-qqA">
-                                <rect key="frame" x="37" y="580" width="52" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRQ-hh-qqA">
+                                <rect key="frame" x="37.666666666666664" y="586" width="51.999999999999993" height="52"/>
                                 <state key="normal" image="btn_less"/>
                                 <connections>
                                     <action selector="reduceEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0ra-ZQ-FzY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Nn-MV-xlm">
-                                <rect key="frame" x="285" y="580" width="52" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Nn-MV-xlm">
+                                <rect key="frame" x="285.66666666666669" y="586" width="52" height="52"/>
                                 <state key="normal" image="btn_plus"/>
                                 <connections>
                                     <action selector="addEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o49-c6-4XZ"/>
@@ -41,9 +40,12 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="pRQ-hh-qqA" firstAttribute="top" secondItem="p3L-tr-XY4" secondAttribute="bottom" constant="25" id="01F-s1-Fz8"/>
                             <constraint firstItem="p3L-tr-XY4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="505-96-LCb"/>
-                            <constraint firstItem="p3L-tr-XY4" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="SAA-1E-7eG"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="p3L-tr-XY4" secondAttribute="bottom" constant="223" id="UvW-Y9-gPg"/>
+                            <constraint firstItem="2Nn-MV-xlm" firstAttribute="top" secondItem="pRQ-hh-qqA" secondAttribute="top" id="LKd-EN-Ulb"/>
+                            <constraint firstItem="2Nn-MV-xlm" firstAttribute="trailing" secondItem="p3L-tr-XY4" secondAttribute="trailing" id="RFi-5s-uQ8"/>
+                            <constraint firstItem="pRQ-hh-qqA" firstAttribute="leading" secondItem="p3L-tr-XY4" secondAttribute="leading" id="UI8-v0-FtJ"/>
+                            <constraint firstItem="p3L-tr-XY4" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="bWM-QC-X5A"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
